@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vida boa</title>
+</head>
+<body>
+    <header>
+        <h1>Seja bem vindo ao Vida Boa</h1>
+        <p>Saiba o que é o IMC e adote hábitos de alimentação saudáveis!</p>
+    </header>
+
+    <section class="content">
+        <article>
+            <h2>Hábitos de Alimentação Saudável</h2>
+            <article>
+                <img src="/imagens/piramide-alimentar-para-alimentacao-saudavel.jpg" alt="" class="section-image1">
+            </article>
+            <h1>Adotar hábitos de alimentação saudável é crucial para promover a saúde. Priorize uma dieta variada, incluindo frutas, vegetais, grãos integrais e proteínas magras. Controle as porções para evitar excessos, escolha grãos integrais em vez de refinados, e opte por gorduras saudáveis. Reduza o consumo de açúcar, sal e evite alimentos processados. Hidrate-se adequadamente, planeje refeições com antecedência e cozinhe em casa sempre que possível. Mastigue devagar para reconhecer sinais de saciedade. Equilíbrio e moderação são essenciais. Consultar um profissional de saúde para orientação personalizada e incorporar atividade física regular complementam um estilo de vida saudável.</p>
+        </article>
+
+        <article>
+            <h2>O que seria o IMC?</h2>
+            <article>
+                <img src="/imagens/IMC.png" alt="" class="section-image2">
+            </article>
+            <h1>IMC significa Índice de Massa Corporal. É uma medida que avalia a relação entre o peso e a altura de uma pessoa. O cálculo do IMC é feito dividindo o peso (em quilogramas) pela altura ao quadrado (em metros). A fórmula é a seguinte: 
+                IMC = Peso/Altura^2.
+                
+                A unidade de medida mais comum para o IMC é kg/m². O resultado obtido é então comparado com faixas de valores preestabelecidos pela Organização Mundial da Saúde (OMS) para determinar em qual categoria o indivíduo se encontra em termos de peso corporal. As categorias geralmente incluem:
+                
+                - Abaixo do peso
+                - Peso normal
+                - Sobrepeso
+                - Obesidade (dividida em graus: I, II e III)
+            </h1>
+        </article>
+
+        <article>
+            <h2>Calculadora de IMC</h2>
+            <label for="weight">Peso (kg):</label>
+            <input type="number" id="weight" placeholder="Digite seu peso" required>
+
+            <label for="height">Altura (m):</label>
+            <input type="number" id="height" placeholder="Digite sua altura" required>
+
+            <button onclick="calculateIMC()">Calcular IMC</button>
+
+            <div id="result"></div>
+
+            <div id="image-container">
+                <img id="image" src="" alt="">
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vida Boa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
